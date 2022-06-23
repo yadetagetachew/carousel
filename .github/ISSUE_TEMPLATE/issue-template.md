@@ -1,7 +1,7 @@
 ---
 name: Issue template
-about: " FS<n> <concise name>"
-title: ''
+about: 
+title:" FS<n> <concise name>"
 labels: ''
 assignees: ''
 
