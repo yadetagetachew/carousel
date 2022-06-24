@@ -14,8 +14,39 @@ body{
     margin-right: 1rem;
 }
 
-.container{
+/* .container{
     display: inline-flex;
+} */
+
+.frame-new img{
+    width: 55%;
+    align-content: center;
+    margin-left: 20%;
+    margin-right: 20%; 
+    margin-top: -5rem;
+    position: absolute;
+}
+
+.family-new img{
+    width: 55%;
+    align-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: -2rem;
+}
+.carousel{
+    margin-top: -3rem;
+}
+.carousel-item img{
+    width: 70.5%;
+    height: 54vh; 
+    align-content: center;
+    margin-left: 28%;
+    margin-right: 20%; 
+}
+
+.carousel-indicators{
+    padding-left: 24%;
 }
 
 .frame img{
