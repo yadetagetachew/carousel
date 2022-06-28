@@ -18,5 +18,5 @@ Part two will display a carousel through a new flat screen tv using javascript f
 
 You may clone my repository from my github account yadetagetachew or you may go directly to my live site posted below
 
-Live site  https://yadetagetachew.github.io/carousel/
+Live site  https://yadetagetachew.github.io/carousel/new.html
 
