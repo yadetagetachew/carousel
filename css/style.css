@@ -4,6 +4,7 @@ body{
 }
 .logo img{
     width: 5rem;
+    left: 1px;
 }
 
 .tab{
@@ -16,4 +17,161 @@ body{
 
 .container{
     display: inline-flex;
+}
+
+.frame-new img{
+    width: 55%;
+    height: 64vh;
+    align-content: center;
+    margin-left: 20%;
+    margin-right: 20%; 
+    margin-top: -5rem;
+    position: absolute;
+}
+
+.family-new img{
+    width: 55%;
+    align-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: -2vh;
+    position: relative;
+}
+.carousel{
+    margin-top: -3rem;
+}
+.carousel-item img{
+    width: 70.5%;
+    height: 54vh; 
+    align-content: center;
+    margin-left: 28%;
+    margin-right: 20%; 
+}
+
+.carousel-indicators{
+    padding-left: 24%;
+}
+
+.frame img{
+    position: absolute;
+    width: 78%;
+    height: 70vh;
+    align-content: center;
+    margin-left: 7%;
+    margin-right: 20%; 
+    margin-top: -7rem;
+}
+
+
+
+.family img{
+    width: 70%;
+    align-content: center;
+    margin-left: 14%;
+    margin-right: 35%;
+    margin-top: 29rem;
+    position: relative;
+}
+
+.carousel-old{
+    position: relative;
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    /* background-color: black; */
+}
+
+.carousel-old img{
+    height: 300px;
+    width: 350px;
+    margin-left: -7rem;
+    /* height: 100%;
+    width: 100%;
+    object-fit: cover; */
+}
+
+.slides{
+    position: absolute;
+    list-style: none;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 3rem; */
+}
+
+.carousel-slide{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.carousel-container{
+    /* display: flex;
+    justify-content: center; */
+    position: relative;
+    height: 100%;
+    /* background: red; */
+}
+
+.carousel-nav{
+    /* background: pink; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin-left: -5rem;
+}
+.carousel-button{
+    border: 0;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background: rgba(0, 0, 0, .3);
+    margin: 0 8px;
+    transform: translateY(2000%);
+    cursor: pointer;
+}
+
+.carousel-button .current-slide{
+    background: rgba(0, 0, 0, .75); 
+}
+
+
+
+
+
+
+
+
+.outercontainer{
+    width: 100%;
+    position: fixed;
+}
+.main{
+    display: flex;
+    width: 300%;
+    transition: margin 1s;
+}
+.main img{
+    width: 41vw;
+    height: 40vh;
+    margin-left: 7.5%;
+    margin-right: 10%; 
+    margin-top: 4rem;
+    border-radius: 20%;
+}
+.arrows{
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    cursor: pointer;
+    transform: translateY(-50%)
+}
+#left{
+    left: 0;
+}
+#right{
+    right: 0;
 }
