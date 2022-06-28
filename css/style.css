@@ -1,6 +1,7 @@
 body{
     height: fit-content;
     background-color: beige;
+    position: fixed;
 }
 .logo img{
     width: 5rem;
